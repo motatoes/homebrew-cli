@@ -8,6 +8,6 @@ class DgFormula < Formula
     bottle :unneeded
     
     def install
-      bin.install "./dg/dg"
+      bin.install "dg"
     end
   end
